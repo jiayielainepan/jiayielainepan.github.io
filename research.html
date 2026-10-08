@@ -3,42 +3,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Research · Jiayi Pan</title>
-  <meta name="description" content="Research and publications of Jiayi Pan.">
+  <title>Research · Elaine Pan</title>
+  <meta name="description" content="Research projects, publications, and presentations of Elaine Pan.">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="inner">
-      <a class="site-title" href="./">Jiayi Pan</a>
+      <a class="site-title" href="./">Elaine Pan</a>
       <nav class="site-nav">
         <a href="./">Home</a>
         <a href="research.html" aria-current="page">Research</a>
-        <a href="assets/files/cv.pdf">CV</a>
+        <a href="cv.html">CV</a>
       </nav>
     </div>
   </header>
 
   <main>
     <h1>Research</h1>
-    <p class="placeholder">TODO: Paste your research overview from the Google Site here.</p>
 
-    <h2>Publications</h2>
-    <!-- Copy this block once per paper. Wrap your own name in <span class="me">. -->
-    <div class="pub">
-      <div class="title">Paper Title</div>
-      <div class="authors"><span class="me">Jiayi Pan</span>, Coauthor A, Coauthor B</div>
-      <div class="venue">Venue, Year</div>
-      <div class="pub-links">
-        <a href="#">Paper</a>
-        <a href="#">Code</a>
-        <a href="#">Project</a>
-      </div>
-    </div>
+    <h2>Research Interests</h2>
+    <ul class="entries">
+      <li><strong>Methods:</strong> Stochastic optimization, mixed-integer programming, discrete-event simulation.</li>
+      <li><strong>Applications:</strong> Clinical AI evaluation, healthcare workforce planning, digital health.</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <article class="project">
+      <h3>AIManage: LLM-as-a-Judge for a Patient-Facing Medication Chatbot</h3>
+      <p class="meta">NYU Grossman School of Medicine &middot; June 2026&ndash;present<br>
+        Advisors: Dr. Angela Mastrianni, Dr. Elizabeth Stevens</p>
+      <p>AIManage is a chatbot that supports patients taking GLP-1 medications, and reviewing its conversations by hand doesn&rsquo;t scale. I am designing an LLM-as-a-judge system that automatically evaluates its responses on clinical accuracy, safety, response quality, and patient journey progression. This work led to a governance framework for quality assurance of conversational patient-reported outcome collection, accepted as a first-author poster at the 2026 Conference on the Science of Dissemination and Implementation in Health.</p>
+    </article>
+    <article class="project">
+      <h3>Physical Activity as a Predictor of Readmission After Lung Transplantation</h3>
+      <p class="meta">NYU Grossman School of Medicine &middot; June 2026&ndash;present<br>
+        Advisor: Dr. Akhila Veerubhotla, Bryan Gu</p>
+      <p>Readmission after lung transplantation is common and costly, and physical activity may help identify which patients are at risk. As second author on a scoping review of the existing literature, I screened studies, extracted and synthesized data, and contributed to the manuscript. I support an ongoing study using Fitbit-measured activity by monitoring data collection and contributing to protocol review. The review was presented at the 2026 Rusk Rehabilitation Summer Symposium.</p>
+    </article>
+    <article class="project">
+      <h3>Leyton: Measuring Digitally Enabled Primary Care</h3>
+      <p class="meta">NYU Grossman School of Medicine &middot; June 2026&ndash;present<br>
+        Advisors: Dr. Devin Mann, Marianna Braga</p>
+      <p>Leyton is a digitally enabled primary care practice model that requires clear measures to evaluate its performance. I am developing quality metrics for the model and assessing AI-integrated diagnostic devices, such as digital otoscopes, on cost, feasibility, and implementation. This work will inform how the practice measures quality and decides which technologies to adopt.</p>
+    </article>
+    <article class="project">
+      <h3>Staffing Demand Forecasting for State Psychiatric Hospitals</h3>
+      <p class="meta">Center for Healthcare Engineering and Patient Safety (CHEPS), University of Michigan &middot; January 2025&ndash;May 2026<br>
+        Advisors: Dr. Amy Cohn, William Pozehl</p>
+      <p>State psychiatric hospitals must meet strict staffing requirements despite unpredictable absences and overtime. I built regression models on two years of census, absenteeism, and overtime data across four hospitals to forecast staffing demand by role and shift. These forecasts were translated into dashboards and scheduling tools that administrators used for staffing planning and regulatory compliance.</p>
+    </article>
+    <article class="project">
+      <h3>Measuring NICU Provider Workload</h3>
+      <p class="meta">C.S. Mott Children&rsquo;s Hospital, Michigan Medicine &middot; August&ndash;December 2025</p>
+      <p>NICU assignments are balanced using patient acuity scores, which miss much of what makes a provider&rsquo;s workload demanding. I designed a NASA-TLX&ndash;based survey and conducted more than 30 hours of clinical shadowing to capture these missing factors. Nursing leadership used the findings to inform more balanced patient assignments.</p>
+    </article>
+    <article class="project">
+      <h3>Generative AI and Human Factors</h3>
+      <p class="meta">University of Michigan &middot; September 2024&ndash;January 2025<br>
+        Advisors: Dr. Yili Liu, Maria Fields</p>
+      <p>Generative AI tools are increasingly used in education, but their effects on how people think and decide what to trust are not well understood. I reviewed the literature on generative AI&rsquo;s effects on user cognition, behavior, and trust, and automated qualitative coding of large text datasets using MAXQDA and Python. This analysis identified themes in user feedback and engagement to inform the lab&rsquo;s research directions.</p>
+    </article>
+
+    <h2>Publications &amp; Presentations</h2>
+    <h3>Manuscripts in preparation</h3>
+    <ul class="pubs">
+      <li><span class="me">J. Pan</span>, A. Mastrianni, and E. Stevens. &ldquo;Designing and validating an LLM-as-a-judge for quality assurance of a patient-facing GLP-1 medication chatbot.&rdquo; <span class="venue">In preparation.</span></li>
+      <li>B. Gu, <span class="me">J. Pan</span>, and A. Veerubhotla. &ldquo;Physical activity and physical functioning as predictors of readmission after lung transplantation: A scoping review.&rdquo; <span class="venue">In preparation.</span></li>
+    </ul>
+
+    <h3>Conference presentations</h3>
+    <ul class="pubs">
+      <li><span class="me">J. Pan</span>, A. Mastrianni, and E. Stevens. &ldquo;Development and validation of an LLM-as-a-judge governance framework for quality assurance for conversational patient-reported outcome collection.&rdquo; <span class="venue">Poster (accepted), 19th Annual Conference on the Science of Dissemination and Implementation in Health, National Harbor, MD, Dec. 2026.</span></li>
+    </ul>
+
+    <h3>Other posters</h3>
+    <ul class="pubs">
+      <li>B. Gu, <span class="me">J. Pan</span>, and A. Veerubhotla. &ldquo;Scoping review of physical activity and physical functioning as predictors of readmission post-lung transplant.&rdquo; <span class="venue">Rusk Rehabilitation Summer Symposium, NYU Grossman School of Medicine, Aug. 2026.</span></li>
+      <li><span class="me">J. Pan</span>, D. Postiff, M. Retto, and J. Um. &ldquo;NICU provider workload measurement and patient acuity scoring.&rdquo; <span class="venue">IOE Senior Design Expo, University of Michigan, Dec. 2025.</span></li>
+      <li><span class="me">J. Pan</span>, A. Acharya, E. Nair, M. Stier, F. Zimmerman, W. Pozehl, and A. Cohn. &ldquo;Database migration for state psychiatric hospital staffing and attendance tool.&rdquo; <span class="venue">CHEPS Symposium, University of Michigan, Oct. 2025.</span></li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:elpan@umich.edu">elpan@umich.edu</a><br>
+      <a href="https://www.linkedin.com/in/elaine-pan-384683247">LinkedIn</a>
+    </p>
   </main>
 
   <footer class="site-footer">
-    <div class="inner">&copy; Jiayi Pan</div>
+    <div class="inner">&copy; Elaine Pan</div>
   </footer>
 </body>
 </html>

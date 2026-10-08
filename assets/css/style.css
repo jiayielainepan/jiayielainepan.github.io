@@ -81,22 +81,26 @@ h3 { font-size: 1.05rem; margin: 24px 0 8px; }
   .links { justify-content: center; }
 }
 
-.news { list-style: none; padding: 0; margin: 0; }
-.news li { display: flex; gap: 16px; padding: 4px 0; }
-.news .date { color: var(--muted); min-width: 80px; flex-shrink: 0; }
+.entries { padding-left: 20px; margin: 0; }
+.entries li { margin: 4px 0; }
+.entries .when { color: var(--muted); }
 
-.pub { margin: 0 0 20px; }
-.pub .title { font-weight: 600; }
-.pub .authors, .pub .venue { color: var(--muted); font-size: 0.95rem; }
-.pub .authors .me { color: var(--text); font-weight: 600; }
-.pub .pub-links { font-size: 0.9rem; margin-top: 2px; }
-.pub .pub-links a { margin-right: 12px; }
+.project { margin: 0 0 28px; }
+.project h3 { margin: 0 0 4px; }
+.project .meta { color: var(--muted); font-size: 0.95rem; margin: 0; }
+.project p:last-child { margin-top: 8px; }
 
-.placeholder {
-  background: color-mix(in srgb, var(--maize) 18%, transparent);
-  border-left: 3px solid var(--maize);
-  padding: 8px 12px;
-  border-radius: 4px;
+.pubs { padding-left: 20px; margin: 0; }
+.pubs li { margin: 0 0 12px; }
+.pubs .me { font-weight: 600; }
+.pubs .venue { color: var(--muted); }
+
+.cv-frame {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-top: 16px;
 }
 
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }

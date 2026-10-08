@@ -1,4 +1,4 @@
-# Jiayi Pan – personal website
+# Elaine Pan – personal website
 
 A plain static site (HTML + CSS, no build step), migrated from
 <https://sites.google.com/umich.edu/jiayi-pan>. It is served by GitHub Pages.
@@ -7,8 +7,9 @@ A plain static site (HTML + CSS, no build step), migrated from
 
 | File | Page |
 | --- | --- |
-| `index.html` | Home: photo, bio, links, news |
-| `research.html` | Research overview and publications |
+| `index.html` | Home: photo, bio, education, experience, contact |
+| `research.html` | Research interests, projects, publications & presentations |
+| `cv.html` | CV (embeds `assets/files/cv.pdf`) |
 | `assets/css/style.css` | Styles (supports light and dark mode) |
 | `assets/img/` | Images. Put your photo here as `profile.jpg`. |
 | `assets/files/` | Downloads. Put your CV here as `cv.pdf`. |
